@@ -1,0 +1,14 @@
+name: FightTheSky
+main: FightTheSky\Main
+version: 1.0.0
+api: [1.12.0]
+author: NPWS-Aery123
+commands:
+ skills:
+  description: "Main command"
+  usage: "/skills"
+  permission: FightTheSky.Command.fts
+permissions:
+ FightTheSky.Command.fts:
+  description: "Main command"
+  default: true
